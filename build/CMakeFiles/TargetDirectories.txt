@@ -1,0 +1,3 @@
+/Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/build/CMakeFiles/TestDemo.dir
+/Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/build/CMakeFiles/ALL_BUILD.dir
+/Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/build/CMakeFiles/ZERO_CHECK.dir

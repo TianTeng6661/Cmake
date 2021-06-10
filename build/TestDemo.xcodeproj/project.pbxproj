@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4B2F8B7899794CD482BA4D9A /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1706D01CFF9C45A19D522DB4 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				DF4B05478EC5AEC3E6A50E10 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				1687D50351424C0EA369053F /* PBXTargetDependency */,
+				FB361A2C55F6467FAD2D1C9E /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		64D1CBE11B364E7C89F30A84 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 51A4D3868CFD40DE8A8F2E64 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				EC97AE9F88CF6B81B22C76F8 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		03BCED6619E1406D85F1D5D9 /* /Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = C30E9D9EC09944A997E2EE37 /* /Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/CMakeLists.txt */; };
+		0FF59F430931415CA9DEC5FE /* /Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/hellow.cpp */ = {isa = PBXBuildFile; fileRef = 8D39155916DF42F8975D0599 /* /Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/hellow.cpp */; };
+		9E455E68BE294AC18C9E2D69 /* /Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/build/CMakeFiles/TestDemo.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 3C2DDD759EC04AD8BCF1F42E /* /Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/build/CMakeFiles/TestDemo.dir/Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		4DCA1AA3EC0F4B828E25ADC3 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		790C5E922A0B4DE8971BCB74 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		7BD4F68B39364B2BA85E5185 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		A484A055E2254D0E80AECAC3 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		8F1328C99F3643C1A1243174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 710ECD6272DB409C8F579EF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64D1CBE11B364E7C89F30A84;
+			remoteInfo = ZERO_CHECK;
+		};
+		9ACF29155D2248E48D8FF222 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 710ECD6272DB409C8F579EF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 763E1BCAA8024C9687BF71B4;
+			remoteInfo = TestDemo;
+		};
+		A1576EFDAE3847B98AA11E61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 710ECD6272DB409C8F579EF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64D1CBE11B364E7C89F30A84;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C2DDD759EC04AD8BCF1F42E /* /Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/build/CMakeFiles/TestDemo.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = build/CMakeFiles/TestDemo.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		5B7E10AC97CC4B138D600338 /* TestDemo */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libTestDemo.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D39155916DF42F8975D0599 /* /Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/hellow.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hellow.cpp; path = hellow.cpp; sourceTree = SOURCE_ROOT; };
+		AC9314C4DA094BF4B592B29C /* /Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C30E9D9EC09944A997E2EE37 /* /Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06599A20AC4146428C375A83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00DCE73A40BB474F92D27D62 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				9052E05C950E4AEAA0825A07 /* CMake Rules */,
+				AC9314C4DA094BF4B592B29C /* /Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		0E62865F3168496C9B1AAE32 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D39155916DF42F8975D0599 /* /Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/hellow.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		29085A6C24754255AD56C4DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D3D3B08C2E749E3B9C778E9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3C2DDD759EC04AD8BCF1F42E /* /Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/build/CMakeFiles/TestDemo.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9052E05C950E4AEAA0825A07 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		A2E85D056D894D0BA1EA63DC = {
+			isa = PBXGroup;
+			children = (
+				DAD1C5E036CE4028B77CEA9C /* TestDemo */,
+				00DCE73A40BB474F92D27D62 /* ALL_BUILD */,
+				E12C56FEE17248C4B279E6CD /* Products */,
+				29085A6C24754255AD56C4DB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DAD1C5E036CE4028B77CEA9C /* TestDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0E62865F3168496C9B1AAE32 /* Source Files */,
+				5D3D3B08C2E749E3B9C778E9 /* Resources */,
+				C30E9D9EC09944A997E2EE37 /* /Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/CMakeLists.txt */,
+			);
+			name = TestDemo;
+			sourceTree = "<group>";
+		};
+		E12C56FEE17248C4B279E6CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B7E10AC97CC4B138D600338 /* TestDemo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		763E1BCAA8024C9687BF71B4 /* TestDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D2501758CAA4F218B32E078 /* Build configuration list for PBXNativeTarget "TestDemo" */;
+			buildPhases = (
+				7332799D2E8546A88D5F5E66 /* Sources */,
+				06599A20AC4146428C375A83 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC7E78AF670741339A6BC19A /* PBXTargetDependency */,
+			);
+			name = TestDemo;
+			productName = TestDemo;
+			productReference = 5B7E10AC97CC4B138D600338 /* TestDemo */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		710ECD6272DB409C8F579EF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 85F796E6446F4FC2B1AC002F /* Build configuration list for PBXProject "TestDemo" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				7BD4F68B39364B2BA85E5185 /* Debug */,
+				4DCA1AA3EC0F4B828E25ADC3 /* Release */,
+				A484A055E2254D0E80AECAC3 /* MinSizeRel */,
+				790C5E922A0B4DE8971BCB74 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = A2E85D056D894D0BA1EA63DC;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				4B2F8B7899794CD482BA4D9A /* ALL_BUILD */,
+				763E1BCAA8024C9687BF71B4 /* TestDemo */,
+				64D1CBE11B364E7C89F30A84 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		DF4B05478EC5AEC3E6A50E10 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/build/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/build
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		EC97AE9F88CF6B81B22C76F8 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/build/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/build
+  make -f /Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/build
+  make -f /Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/build
+  make -f /Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/build
+  make -f /Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/build/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7332799D2E8546A88D5F5E66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FF59F430931415CA9DEC5FE /* /Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/hellow.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1687D50351424C0EA369053F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64D1CBE11B364E7C89F30A84 /* ZERO_CHECK */;
+			targetProxy = A1576EFDAE3847B98AA11E61 /* PBXContainerItemProxy */;
+		};
+		EC7E78AF670741339A6BC19A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64D1CBE11B364E7C89F30A84 /* ZERO_CHECK */;
+			targetProxy = 8F1328C99F3643C1A1243174 /* PBXContainerItemProxy */;
+		};
+		FB361A2C55F6467FAD2D1C9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 763E1BCAA8024C9687BF71B4 /* TestDemo */;
+			targetProxy = 9ACF29155D2248E48D8FF222 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04D7772C3BFA4A458E825AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/inc,/Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = TestDemo;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		0766674D1ADF453FAD6623C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		168CB587E0F94626851D6F6E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				"ARCHS[sdk=iphoneos*]" = arm64;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk;
+				SYMROOT = /Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/build/build;
+				"VALID_ARCHS[sdk=iphoneos*]" = arm64;
+			};
+			name = MinSizeRel;
+		};
+		19A607D11207432EBB915BB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/inc,/Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = TestDemo;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		2B2154DF8DAE42B188CA4905 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		2F803C3CCE744103A01FE6E6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				"ARCHS[sdk=iphoneos*]" = arm64;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk;
+				SYMROOT = /Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/build/build;
+				"VALID_ARCHS[sdk=iphoneos*]" = arm64;
+			};
+			name = RelWithDebInfo;
+		};
+		3DE34596FC9F436984FF4F47 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/inc,/Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = TestDemo;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		483C23F83BA04EF9ACC359AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				"ARCHS[sdk=iphoneos*]" = arm64;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk;
+				SYMROOT = /Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/build/build;
+				"VALID_ARCHS[sdk=iphoneos*]" = arm64;
+			};
+			name = Release;
+		};
+		495827C4E85744E9BCBB2C9B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5A84B5EDA6E448F0A55F76EC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6231FB2F6D714D3CA32DDB8E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/inc,/Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = TestDemo;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7DCCBB06122B4C97B016617D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				"ARCHS[sdk=iphoneos*]" = arm64;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk;
+				SYMROOT = /Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/build/build;
+				"VALID_ARCHS[sdk=iphoneos*]" = arm64;
+			};
+			name = Debug;
+		};
+		8F604DECE0E24A29908A7A79 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		AA8BCB9BA5594DF0A2D93F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B4EF357E27BE4E3686B3031C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F9A89CD663564C3B8DF463D4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/tianteng/Desktop/CmakeTest/CmakeTest/CmakeTest/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1706D01CFF9C45A19D522DB4 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0766674D1ADF453FAD6623C0 /* Debug */,
+				B4EF357E27BE4E3686B3031C /* Release */,
+				8F604DECE0E24A29908A7A79 /* MinSizeRel */,
+				5A84B5EDA6E448F0A55F76EC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		51A4D3868CFD40DE8A8F2E64 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8BCB9BA5594DF0A2D93F9E /* Debug */,
+				2B2154DF8DAE42B188CA4905 /* Release */,
+				495827C4E85744E9BCBB2C9B /* MinSizeRel */,
+				F9A89CD663564C3B8DF463D4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5D2501758CAA4F218B32E078 /* Build configuration list for PBXNativeTarget "TestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19A607D11207432EBB915BB3 /* Debug */,
+				04D7772C3BFA4A458E825AEA /* Release */,
+				6231FB2F6D714D3CA32DDB8E /* MinSizeRel */,
+				3DE34596FC9F436984FF4F47 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		85F796E6446F4FC2B1AC002F /* Build configuration list for PBXProject "TestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DCCBB06122B4C97B016617D /* Debug */,
+				483C23F83BA04EF9ACC359AE /* Release */,
+				168CB587E0F94626851D6F6E /* MinSizeRel */,
+				2F803C3CCE744103A01FE6E6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 710ECD6272DB409C8F579EF7 /* Project object */;
+}
